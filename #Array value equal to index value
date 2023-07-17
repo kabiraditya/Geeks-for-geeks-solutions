@@ -1,0 +1,9 @@
+class Solution:
+
+	def valueEqualToIndex(self,arr, n):
+		# code here
+		res=[]
+		for i in range(0,n):
+		    if arr[i]==i+1:
+		        res.append(arr[i])
+		return res
